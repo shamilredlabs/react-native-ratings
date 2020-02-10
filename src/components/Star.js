@@ -39,6 +39,7 @@ export default class Star extends PureComponent {
 
   render() {
     const { fill, size, selectedColor, isDisabled, starStyle } = this.props;
+    //const starSource = fill && selectedColor === null ? STAR_SELECTED_IMAGE : STAR_IMAGE;
     const starSource = fill ? STAR_SELECTED_IMAGE : STAR_IMAGE;
 
     return (
